@@ -91,7 +91,7 @@ Vignan’s LARA Institute of Technology and Science
 ---
 
 ## 📬 Contact
--Email:saisrinivasreddy456@gmail.com
+•Email:saisrinivasreddy456@gmail.com
 
 - LinkedIn: www.linkedin.com/in/sai-srinivas-reddy 
 - GitHub: https://github.com/Reddy-02
