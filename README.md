@@ -105,5 +105,12 @@ sai-srinivas-reddy
 - For demo/testing, use synthetic phishing and legitimate URLs.
 
 ---
+## 🖥️ Download Executable (.exe)
+
+To run the phishing detection tool offline:
+
+👉 [Download phishing_gui_advanced.exe](https://drive.google.com/file/d/1PTA629tPbyhy9-faddI6OEp4pkAKj3hE/view?usp=sharing)
+
+📌 Note: Place the file `phishing_model_advanced.joblib` in the same folder as the `.exe`.
 
 > 🔒 This project was created as part of a cybersecurity internship to demonstrate applied machine learning in phishing URL detection.
