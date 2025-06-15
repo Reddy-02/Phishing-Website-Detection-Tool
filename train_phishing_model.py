@@ -73,8 +73,12 @@ print("✅ Model saved as 'phishing_model_advanced.joblib'")
 # ------------------------------
 # STEP 8: Confusion Matrix
 # ------------------------------
-sns.heatmap(confusion_matrix(y_test, y_pred), annot=True, fmt='d', cmap="Blues")
-plt.title("Confusion Matrix")
-plt.xlabel("Predicted")
-plt.ylabel("Actual")
+cm = confusion_matrix(y_test, y_pred)
+labels = ["Legitimate", "Phishing"]
+
+sns.heatmap(cm, annot=True, fmt='d', cmap="Blues", xticklabels=labels, yticklabels=labels)
+plt.title("Confusion Matrix - Phishing Website Detection")
+plt.xlabel("Predicted Label")
+plt.ylabel("Actual Label")
+plt.tight_layout()
 plt.show()
